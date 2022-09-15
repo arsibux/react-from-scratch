@@ -117,7 +117,9 @@ module.exports = {
   16. Run `npm run build` for build the react application with all resoureces.
 
 ## Resoureces
-  -
+  - [React](https://reactjs.org/docs/getting-started.html)
+  - [JSX in React](https://www.w3schools.com/react/react_jsx.asp).
+
 ## Changelog
   - [1.0.0] 2022-09-15
     - ADDED: Setup the react application from scratch.
