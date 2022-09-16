@@ -1,9 +1,12 @@
-import React from 'react';
-import "./App.css";
+import React from 'react'
+import TaskList from './Task/TaskList'
+import NewTaskForm from './Task/NewTaskForm'
+import './App.css'
 
-const App = ()=>(
+const App = () => (
   <div className="container">
-    <h1 className="title">Hello, React!</h1>
+    <NewTaskForm />
+    <TaskList />
   </div>
-);
-export default  App;
+)
+export default App

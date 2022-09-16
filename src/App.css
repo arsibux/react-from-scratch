@@ -1,6 +1,7 @@
 /* Css File for App component */
 .container{
   padding: 2.5% 5%;
+  margin: auto;
 }
 .title{
   text-align:center;

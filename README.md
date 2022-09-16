@@ -116,7 +116,21 @@ module.exports = {
   15. Run `npm run dev` to compile the code and see the effect at localhost:3000 in browser.
   16. Run `npm run build` for build the react application with all resoureces.
 
-## Resoureces
+### Adding Redux
+  17. Run `npm install redux react-redux` adding dependencies to our application.
+  18. Create new file in `src/Store.js` for redux store and put following code.
+
+```
+import { createStore, combineReducers } from 'redux'
+
+const reducers = []
+const rootReducer = combineReducers(reducers)
+
+export const consfigurStore = () => createStore(rootReducer)
+
+```
+  19. Add Provide to index.js file. Import Provider from react-redux and wrappe the App component.
+ Resoureces
   - [React](https://reactjs.org/docs/getting-started.html)
   - [JSX in React](https://www.w3schools.com/react/react_jsx.asp).
 
@@ -124,3 +138,5 @@ module.exports = {
   - [1.0.0] 2022-09-15
     - ADDED: Setup the react application from scratch.
     - ADDED: Use of Redux library for state management.
+  - [1.0.0] 2022-09-16
+    - ADDED: Adding redux to application.
